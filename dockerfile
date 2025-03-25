@@ -6,4 +6,4 @@ COPY kie-server.war /opt/jboss/wildfly/standalone/deployements/
 EXPOSE 8080 9990
 
 #Start WildFly
-CMD["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0"]
+CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0"]
