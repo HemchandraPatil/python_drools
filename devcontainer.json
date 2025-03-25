@@ -1,0 +1,6 @@
+{
+    "name": "WildFly Dev",
+    "dockerFile": "Dockerfile",
+    "forwardPorts" : [8080,9990],
+    "postCreateCommand": "chmod +x /opt/jboss/wildfly/bin/*.sh"
+}
