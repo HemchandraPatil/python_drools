@@ -19,8 +19,8 @@ class Person:
 Drools.KIE_SERVER_CONTAINER_PACKAGE = 'you_kie_container_package' # Example: com.myspace.sample_project
 Drools.KIE_SERVER_USERNAME = 'your_kie_server_username'
 Drools.KIE_SERVER_PASSWORD = 'your_kie_server_password'
-Drools.KIE_SERVER_ROOT_URL = 'your_kie_server_url'
-Drools.KIE_SERVER_CONTAINER_ID = 'your_kie_container_id' # Example : Sample_Project_1.0.0-SNAPSHOT
+Drools.KIE_SERVER_ROOT_URL = 'https://opt/jboss/wildfly/bin/standalone.sh'
+Drools.KIE_SERVER_CONTAINER_ID = 'aa1221d57ebf' # Example : Sample_Project_1.0.0-SNAPSHOT
 # If you defined a KIE_SESSION in your drools workbench project, you can specify it like the following line
 Drools.KIE_SESSION_NAME = 'your_kie_session_name'
 
